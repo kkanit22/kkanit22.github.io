@@ -85,7 +85,7 @@ h3 {
   width: 144px;
 }
 
-.ay-css-my-site {
+.ay-css-my-site:before {
   background-image: url(../images/css-my-site-thumb.png);
   background-position: center;
   background-size: cover;
