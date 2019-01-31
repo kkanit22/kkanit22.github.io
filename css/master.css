@@ -3,6 +3,26 @@
 /*csslint empty-rules: false*/
 /*csslint duplicate-background-images: false*/
 
+html {
+   background-color: mintcream;
+}
+
+body {
+   font-size: 18px;
+   margin: auto;
+   padding: 2em 4em;
+   max-width: 1440px;
+}
+
+a {
+   text-decoration: none;
+}
+
+h3 {
+   margin-top: 4em;
+   text-decoration: underline;
+}
+
 .custom-list {
   list-style: none;
   padding-left: 0;
@@ -14,6 +34,13 @@
   padding-left: 160px;
   position: relative;
   top: 45px;
+}
+
+.frontend-mentor {
+   margin: auto;
+   text-align: left;
+   width: 80%;
+   min-width: 350px;
 }
 
 .huddle-lp-1:before {
@@ -44,24 +71,93 @@
   width: 144px;
 }
 
-/*
-.custom-list {
-    list-style: none;
-    padding-left: 0;
+.huddle-lp-3:before {
+  background-image: url(../images/huddle-lp-3-thumb.png);
+  background-position: center;
+  background-size: cover;
+  border: 1px solid black;
+  content: '';
+  height: 81px;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-90%);
+  width: 144px;
 }
-.custom-list li {
-    position: relative;
-    padding-left: 20px;
+
+.ay-css-my-site {
+  background-image: url(../images/css-my-site-thumb.png);
+  background-position: center;
+  background-size: cover;
+  border: 1px solid black;
+  content: '';
+  height: 81px;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-90%);
+  width: 144px;
 }
-.custom-list li:before {
-    content: '';
-    width: 10px;
-    height: 10px;
-    position: absolute;
-    background-image: url('img/bullet.png');
-    background-size: cover;
-    background-position: center;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-} */
+
+.cs-simple-blog:before {
+  background-image: url(../images/simple-blog-thumb.png);
+  background-position: center;
+  background-size: cover;
+  border: 1px solid black;
+  content: '';
+  height: 81px;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-90%);
+  width: 144px;
+}
+.cs-image-blog:before {
+  background-image: url(../images/image-blog-thumb.png);
+  background-position: center;
+  background-size: cover;
+  border: 1px solid black;
+  content: '';
+  height: 81px;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-90%);
+  width: 144px;
+}
+.cs-image-gallery:before {
+  background-image: url(../images/image-gallery-thumb.png);
+  background-position: center;
+  background-size: cover;
+  border: 1px solid black;
+  content: '';
+  height: 81px;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-90%);
+  width: 144px;
+}
+.cs-purrfect-match:before {
+  background-image: url(../images/purrfect-match-thumb.png);
+  background-position: center;
+  background-size: cover;
+  border: 1px solid black;
+  content: '';
+  height: 81px;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-90%);
+  width: 144px;
+}
+
+
+.my-example-sites {
+   text-align: center;
+}
+
+.resource-link {
+   color: DarkCyan;
+   font-weight: bold;
+}
