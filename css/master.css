@@ -42,7 +42,7 @@ h3 {
    width: 80%;
    min-width: 350px;
 }
-
+/* ------------  Frontend Mentor ------------ */
 .huddle-lp-1:before {
   background-image: url(../images/huddle-lp-1-thumb.png);
   background-position: center;
@@ -56,7 +56,6 @@ h3 {
   transform: translateY(-90%);
   width: 144px;
 }
-
 .huddle-lp-2:before {
   background-image: url(../images/huddle-lp-2-thumb.png);
   background-position: center;
@@ -70,7 +69,6 @@ h3 {
   transform: translateY(-90%);
   width: 144px;
 }
-
 .huddle-lp-3:before {
   background-image: url(../images/huddle-lp-3-thumb.png);
   background-position: center;
@@ -84,7 +82,21 @@ h3 {
   transform: translateY(-90%);
   width: 144px;
 }
+.huddle-lp-4:before {
+  background-image: url(../images/huddle-lp-4-thumb.png);
+  background-position: center;
+  background-size: cover;
+  border: 1px solid black;
+  content: '';
+  height: 81px;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-90%);
+  width: 144px;
+}
 
+/* ------------  Angela Yu ------------ */
 .ay-css-my-site:before {
   background-image: url(../images/css-my-site-thumb.png);
   background-position: center;
@@ -99,6 +111,7 @@ h3 {
   width: 144px;
 }
 
+/* ------------  Colt Steele ------------ */
 .cs-simple-blog:before {
   background-image: url(../images/simple-blog-thumb.png);
   background-position: center;
