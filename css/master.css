@@ -110,6 +110,19 @@ h3 {
   transform: translateY(-90%);
   width: 144px;
 }
+.ay-tindog:before {
+  background-image: url(../images/tindog-thumb.png);
+  background-position: center;
+  background-size: cover;
+  border: 1px solid black;
+  content: '';
+  height: 81px;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-90%);
+  width: 144px;
+}
 
 /* ------------  Colt Steele ------------ */
 .cs-simple-blog:before {
